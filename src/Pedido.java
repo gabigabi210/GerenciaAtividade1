@@ -4,6 +4,7 @@ import logicaImposto.Imposto;
 public class Pedido {
     private Frete frete;
     private Imposto imposto;
+    private int pontosFidelidade;
     private double valor;
 
     public double getValor() {
@@ -42,4 +43,17 @@ public class Pedido {
     public void setImposto(Imposto imposto) {
         this.imposto = imposto;
     }
+
+    public int getPontosFidelidade() {
+        return pontosFidelidade;
+    }
+
+    public void addPontosFidelidade(int pontosFidelidade) {
+        this.pontosFidelidade += pontosFidelidade;
+    }
+
+    public void removePontosFidelidade(int pontosFidelidade) {
+        this.pontosFidelidade -= pontosFidelidade;
+    }
+
 }
