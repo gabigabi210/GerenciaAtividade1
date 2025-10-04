@@ -6,6 +6,14 @@ public class Pedido {
     private Imposto imposto;
     private double valor;
 
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
     public Pedido(Frete frete, Imposto imposto, double valor) {
         this.frete = frete;
         this.imposto = imposto;
