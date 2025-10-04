@@ -24,10 +24,6 @@ public class Pedido {
     public Pedido() {
     }
 
-    public double getValor() {
-        return valor;
-    }
-
     public Frete getFrete() {
         return frete;
     }
@@ -48,8 +44,8 @@ public class Pedido {
         return pontosFidelidade;
     }
 
-    public void addPontosFidelidade(int pontosFidelidade) {
-        this.pontosFidelidade += pontosFidelidade;
+    public void addPontosFidelidade(int valor) {
+        this.pontosFidelidade += (int) valor / 10 ;
     }
 
     public void removePontosFidelidade(int pontosFidelidade) {
