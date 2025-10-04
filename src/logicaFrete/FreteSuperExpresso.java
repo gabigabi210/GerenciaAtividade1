@@ -1,5 +1,7 @@
 package logicaFrete;
 
 public class FreteSuperExpresso implements Frete {
-
+    public double calcularFrete(double valor) {
+        return valor * 1.5;
+    }
 }
