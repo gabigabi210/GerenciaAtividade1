@@ -8,7 +8,6 @@ Oferece clareza total sobre o valor final da transação e permite a geração d
 
 ## ✨ Funcionalidades Principais
 
-* **Cálculo Unificado:** Calcula o valor final do pedido, somando Frete e Impostos e aplicando descontos de Fidelidade.
-* **Discriminação de Custos:** Exibe o valor total do Frete e dos Impostos aplicados separadamente.
+* **Cálculo Unificado:** Calcula o valor final do pedido, somando Frete e Impostos.
 * **Geração de Relatórios:** Permite ao usuário solicitar um relatório **específico e detalhado** com a composição exata dos valores de frete e impostos.
 * **Fidelidade Integrada:** Gerencia a aplicação ou o acúmulo de pontos de fidelidade na transação.
