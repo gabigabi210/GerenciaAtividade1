@@ -1,5 +1,10 @@
 package logicaFrete;
 
+import java.time.Duration;
+
 public interface Frete {
-    double calcularFrete(double valor);
+    public double calcularFrete(double valor);
+    public String calcularTempoEntrega(Frete frete);
+
 }
+
