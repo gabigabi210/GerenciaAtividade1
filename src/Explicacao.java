@@ -1,8 +1,16 @@
 public class Explicacao {
     Pedido pedido;
     public String informacoesValorTotal() {
-        return "O que compoe o valor cobrado:"
-                + "Valor do frete: " + pedido.getFrete()
-                + "Valor do imposto: " + pedido.getImposto();
+        String relatorio = """
+=================================
+|   Relatório do valor pago    |
+=================================
+| Frete: %s                  |
+| Impostos: %s                  |
+| Total: %s              |
+=================================
+""";
+        return String.format(relatorio, pedido.getFrete(), pedido.getImposto(),
+                pedido.getFrete().calcularFrete(pedido.getValor()) + pedido.getImposto().calcularImposto(pedido.getValor()));
     }
 }
