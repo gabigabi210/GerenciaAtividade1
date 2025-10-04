@@ -54,6 +54,8 @@ public class Executavel {
             pedido.setImposto(new ImportacaoAcimaDe50());
             System.out.println(pedido.getImposto().calcularImposto(pedido.getValor())+ pedido.getFrete().calcularFrete(pedido.getValor()));
         }
+        pedido.addPontosFidelidade((int) pedido.getValor());
+        System.out.print("Quantidade de pontos adquiridos na compra: " + pedido.getPontosFidelidade() ) ;
 
     }
 
