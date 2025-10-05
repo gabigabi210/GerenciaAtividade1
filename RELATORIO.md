@@ -129,7 +129,7 @@
 ### 2.5 Uso de Rebase
 - Em qual feature aplicaram git rebase? Sim
 - Adição do relatório da primeira parte da ativiade, da branch Relatorio para develop.
-
+![img_6.png](img_6.png)
 
 
        git rebase develop
