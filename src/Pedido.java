@@ -67,7 +67,7 @@ public class Pedido {
     }
 
     public double calculaValorTotal(Pedido pedido) {
-        return pedido.getImposto().calcularImposto(pedido.getValor())+ pedido.getFrete().calcularFrete(pedido.getValor()) + pedido.getTipoPagamento().realizarPagamento(pedido.getValor());
+        return pedido.getImposto().calcularImposto(pedido.getValor()) + pedido.getFrete().calcularFrete(pedido.getValor()) + pedido.getTipoPagamento().realizarPagamento(pedido.getValor());
     }
 
 }

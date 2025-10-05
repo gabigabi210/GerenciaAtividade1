@@ -11,6 +11,7 @@ public class Executavel {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Pedido pedido = new Pedido();
+        Explicacao explicacao = new Explicacao();
 
         System.out.println("Bem vindo a calculadora de imposto," +
                 " frete e pontos de fidelidade do nossa loja");
@@ -57,13 +58,17 @@ public class Executavel {
         pedido.addPontosFidelidade((int) pedido.getValor());
         System.out.print("Quantidade de pontos adquiridos na compra: " + pedido.getPontosFidelidade() ) ;
 
-    }
+        System.out.print("Deseja ver os detalhes do preço total do pedido? ");
+        System.out.println("1 - Sim\n" +
+                "2 - Não\n");
+        System.out.print("Qual sua escolha? ");
+        int escolhaExplicacao = sc.nextInt();
 
-
-
-
-
-
-
-
+        if(escolhaExplicacao == 1){
+            System.out.println(explicacao.informacoesValorTotal(pedido.getFrete().calcularFrete(pedido.getValor()), pedido.getImposto().calcularImposto(pedido.getValor()), pedido.calculaValorTotal(pedido)));
+        } else {
+            System.out.println('a');
         }
+
+    }
+}
