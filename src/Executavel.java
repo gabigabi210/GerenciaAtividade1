@@ -66,6 +66,8 @@ public class Executavel {
 
         if(escolhaExplicacao == 1){
             System.out.println(explicacao.informacoesValorTotal(pedido.getFrete().calcularFrete(pedido.getValor()), pedido.getImposto().calcularImposto(pedido.getValor()),pedido.calculaValorTotal(pedido)));
+        } else {
+            System.out.println('a');
         }
 
     }
