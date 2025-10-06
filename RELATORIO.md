@@ -3,7 +3,7 @@
 
 ## Identificação
 - *Integrantes da equipe*:
-    - Glauco Cordeire Siqueira
+    - Glauco Cordeiro Siqueira
     - Kaick José Pita de Mendonça Lopes
     - Maria Gabriela Santos Melo
 
