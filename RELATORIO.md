@@ -156,8 +156,7 @@ Quais branches foram criados a partir de main?
 - Tag criada: v3.0.
   - Ela foi feita depois da finalização deste relatório.
 
-[INCLUA PRINT do git log mostrando a tag v3.0 no final da main]
-
+![img.png](Anexos/12131.png)
 ---
 
 Histórico de Commits
@@ -165,4 +164,4 @@ Foi usado esse comando para pegar o histórico:
 
     git log --oneline --graph --all
 
-![img_1.png](img_1.png)
+![img_1.png](Anexos/img_1.png)
