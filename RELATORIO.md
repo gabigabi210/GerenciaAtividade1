@@ -32,7 +32,7 @@
 
 - Após a criação da branch develop, cada integrante ficou responsável em criar suas branches
 - **[PRINT da estrutura inicial do git branch]**
-![img.png](img.png)
+![img.png](Anexos/img.png)
 
 ---
 
@@ -65,7 +65,7 @@
 
 - Prints dos commits:
     - **[PRINT do histórico das branches]**
-![img_1.png](img_1.png)
+![img_1.png](Anexos/img_1.png)
 
 
 ### 2.2 Conflitos
@@ -83,8 +83,8 @@
 - Prints conflito 1:
 
 
-  ![img_2.png](img_2.png)
-  ![img_3.png](img_3.png)
+  ![img_2.png](Anexos/img_2.png)
+  ![img_3.png](Anexos/img_3.png)
 
 - Conflito 2:
     - O conflito ocorreu no arquivo **Pedido**, especificamente na função de declaração da pontuação e do valor.
@@ -98,8 +98,8 @@
 
 
 - Prints conflito 2:
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](Anexos/img_4.png)
+![img_5.png](Anexos/img_5.png)
 
 
 ### 2.3 Release
@@ -129,9 +129,40 @@
 ### 2.5 Uso de Rebase
 - Em qual feature aplicaram git rebase? Sim
 - Adição do relatório da primeira parte da ativiade, da branch Relatorio para develop.
-![img_6.png](img_6.png)
+![img_6.png](Anexos/img_6.png)
 
 
        git rebase develop
 ---
+## Fase  2 – Trunk-Based Development
 
+### 3.0 Fase Trunk-Based
+
+### 3.1 Branches Curtos
+Quais branches foram criados a partir de main?
+- feature/LogicaTipoPagamento
+- feature/ApresentaçãoDaExplicação
+- feature/AjusteExecutavel
+-Quantos commits cada um teve?
+  - Todos os branches tiveram 1.
+
+### 3.2 Squash
+- Qual merge foi feito usando squash?
+  - O merge da branch feature/AjusteExecutavel. foi feito usando squash.
+- Por que foi escolhido squash em vez de merge normal?
+- Foi escolhido squash para condensar 1 commit pequeno**  A feature era de "AjusteExecutavel" e a equipe julgou que o resultado final (o código limpo). O commit final na main representa a feature completa.
+
+### 3.3 Tag Final
+- Tag criada: v3.0.
+  - Ela foi feita depois da finalização deste relatório.
+
+[INCLUA PRINT do git log mostrando a tag v3.0 no final da main]
+
+---
+
+Histórico de Commits
+Foi usado esse comando para pegar o histórico:
+
+    git log --oneline --graph --all
+
+![img_1.png](img_1.png)
