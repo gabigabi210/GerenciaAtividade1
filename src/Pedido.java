@@ -2,7 +2,7 @@ import LogicaPagamento.TipoPagamento;
 import logicaFrete.Frete;
 import logicaImposto.Imposto;
 
-public class Pedido {
+public class  Pedido {
     private Frete frete;
     private Imposto imposto;
     private TipoPagamento tipoPagamento;
