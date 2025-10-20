@@ -39,7 +39,7 @@ public class Executavel {
 
         System.out.println();
         System.out.println(GREEN + "Olá, " + nome + " de " + pais + "! 👋" + RESET);
-        System.out.println("Seja bem-vinde à nossa loja internacional! 🌎\n");
+        System.out.println("Seja bem-vindo(a) à nossa loja internacional! 🌎\n");
 
         // Escolha do frete 🚚
         System.out.println(BLUE + "Escolha o tipo de frete:" + RESET);
